@@ -188,8 +188,20 @@ engine. At **generation time** every value is derived **deterministically** from
 discovery answers — **no LLM call happens during generation**, so the same answers
 always produce the same artifact.
 
-Deeper reading: ["Compiled AI for GCP Landing Zones" → dev.to/boristep](https://dev.to/boristep/compiled-ai-for-gcp-landing-zones-43i1).
-The methodology is identical for the AWS pipeline.
+### Further reading
+
+- [Compile-Time AI for GCP Landing Zones](https://medium.com/google-cloud/compile-time-ai-for-gcp-landing-zones-2555560fbd2f) — how the compile-time approach works. Written for the GCP pipeline; the methodology is identical here.
+- [Setting Up a GCP Landing Zone for Organizations with Strict Regulatory Requirements](https://medium.com/google-cloud/setting-up-a-gcp-landing-zone-for-organizations-with-strict-regulatory-requirements-9054e0958b76) — the regulated-industry design decisions behind a foundation like this one.
+
+---
+
+## Build your own
+
+**You can generate a landing-zone artifact for your own requirements with Merlin
+Studio — [app.merlin-studio.cloud](https://app.merlin-studio.cloud/).** It is
+open: no signup, no email, guest mode starts immediately. Pick your own
+frameworks, regions and workloads — and your own output format — and compare
+what fires against this example.
 
 ---
 

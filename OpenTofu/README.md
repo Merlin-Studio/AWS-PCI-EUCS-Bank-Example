@@ -150,7 +150,10 @@ At **generation time**, every value below was derived **deterministically** from
 discovery answers + a layered rules engine — **no LLM call happens during generation**.
 The same answers always produce the same artifact.
 
-Deeper reading: ["Compiled AI for GCP Landing Zones" → dev.to/boristep](https://dev.to/boristep/compiled-ai-for-gcp-landing-zones-43i1).
+Deeper reading:
+[Compile-Time AI for GCP Landing Zones](https://medium.com/google-cloud/compile-time-ai-for-gcp-landing-zones-2555560fbd2f)
+and [Setting Up a GCP Landing Zone for Organizations with Strict Regulatory Requirements](https://medium.com/google-cloud/setting-up-a-gcp-landing-zone-for-organizations-with-strict-regulatory-requirements-9054e0958b76).
+You can generate an artifact for your own requirements at [app.merlin-studio.cloud](https://app.merlin-studio.cloud/).
 The methodology is identical for the AWS pipeline.
 
 ### The layer model
